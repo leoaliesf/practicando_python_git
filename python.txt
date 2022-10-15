@@ -9,5 +9,6 @@ input : # para pedir el ingreso de información
 //: #division exacta
 %: #residuo de la division
 ** : #exponencial
+lasvariables : empienzan con cualquiere letra o _ pueden contener numeros pero no al principio 
 for n in range numero : #expresa un ciclo  repetitivo hasta el numero menos 1, es decir si coloco numero 5 este me soltara los valores 
 4,3,2,1
