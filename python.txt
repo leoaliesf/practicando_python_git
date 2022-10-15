@@ -1,0 +1,13 @@
+aqui colocare todos los programas que ire desarrollando mientras estudio python ademas me permite practicar git.
+int : #para que represente un numero en entero 
+float : #representa un numero con decimales y parte entera
+input : # para pedir el ingreso de información
++: #suma
+-: #resta
+*: #multiplicacion
+/: #division
+//: #division exacta
+%: #residuo de la division
+** : #exponencial
+for n in range numero : #expresa un ciclo  repetitivo hasta el numero menos 1, es decir si coloco numero 5 este me soltara los valores 
+4,3,2,1
