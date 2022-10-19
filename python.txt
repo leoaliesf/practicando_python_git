@@ -1,7 +1,29 @@
-aqui colocare todos los programas que ire desarrollando mientras estudio python ademas me permite practicar git.
-int : #para que represente un numero en entero 
-float : #representa un numero con decimales y parte entera
-input : # para pedir el ingreso de información
+Aqui colocare todas las palabras claves o reservadas y los operadores por python con una breve descripción 
+
+comentar
+# el numeral en python es usado para comentar dentro del programa es algo que en si no cumple funcion dentro del programa pero deja informacion para continuar con tu trabajo o para que otras personas que vean el programa entiendan lo que estas haciendo
+
+imprimir mensajes
+
+print : # se usa para imprimir en pantalla lo que desemos como resultados y mensajes
+
+
+Variables
+
+ las variables son llamadas por cualquier letra o numero y "_", pero implican cierta reglas que debes tener en cuenta
+#  no se puede empezar por un numero, puede empezar por letra o "_"  
+#  hay diferencia entre mayusculas y minusculas, no es igual tener  My_var que my_var es decir son dos variables totalmente distintas 
+# no puede tener espacios dentro de tu variable para separar tu variable si deseas usar "_"
+# la siguiente regla a tener en cuenta es que las variables no puedes ser llamadas por las palabras claves reservadas por py
+
+ejemplos de variables si son o no posibles de usar:
+22myvar: no es posible esta variable
+var : si es posible esta variable
+my var : no es posible esta variable
+var_223: si es posible esta variable
+
+operadores matematicos
+
 +: #suma
 -: #resta
 *: #multiplicacion
@@ -9,6 +31,20 @@ input : # para pedir el ingreso de información
 //: #division exacta
 %: #residuo de la division
 ** : #exponencial
+
+operadores logicos
+
+# > : operadore mayor que 
+# < : operador menor que 
+# >= : mayor o igual que 
+# <= : menor o igual que 
+# == : igual a 
+# != : diferente de 
+
 lasvariables : empienzan con cualquiere letra o _ pueden contener numeros pero no al principio 
 for n in range numero : #expresa un ciclo  repetitivo hasta el numero menos 1, es decir si coloco numero 5 este me soltara los valores 
 4,3,2,1
+
+int : #para que represente un numero en entero 
+float : #representa un numero con decimales y parte entera
+input : # para pedir el ingreso de información
