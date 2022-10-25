@@ -1,6 +1,6 @@
 # comparación de una función lambda y una funcion por "def", obteniendo el mismo resultado
 # se añade a una variable la funcion lambda y luego de los dos puntos se coloca todo lo necesario
-# para cumplir tu lamda
+# para cumplir tu funcion
 def incremento(x):
     return x + 1
 
