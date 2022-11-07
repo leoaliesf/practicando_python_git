@@ -10,3 +10,11 @@ print (lista)
 print ()
 lista = [element * 3  for element in range (1,11) if element % 2 == 0]
 print (lista)
+#input list
+n = int(input('numero de elementos de la lista:'))
+lista =[]
+for i in range(n):
+    m= int(input('ingresa el elemento:'))
+    lista.append(m)
+print()
+print(lista)
