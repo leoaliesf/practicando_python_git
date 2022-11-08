@@ -42,25 +42,18 @@ given_num= 14
 list4 = np.array([0,1,2,3,4,5,6,7,8,9,10,11,12,13])
 def result(lista,num):
     list5=[]
-    if len(lista)//2 ==0:
-        for i in range(len(lista)//2):
-            for j in range(len(lista)):
-                if lista[i] + lista[j] == num:
-                    list5.append(tuple([lista[i],lista[j]]))
-        return list5
-    else:
-        for i in range((len(lista)//2)+1):
-            for j in range(len(lista)):
-                if lista[i] + lista[j] == num:
-                    list5.append(tuple([lista[i],lista[j]]))
-        return list5
-            
+    for i in range(len(lista)):
+        for j in range(len(lista)):
+            if lista[i] + lista[j] == num:
+                list5.append(tuple([lista[i],lista[j]]))
+    return list5
+
 print(result(list4, given_num))
 print()
 #five -----
 print('How do you find duplicate numbers in an array if it contains multiple duplicates?')
 import collections
-list6 = [1,1,2,3,4,5,6,7,9,10,11,1,3,2,5,10,1,3]
+list6 = np.array([1,1,2,3,4,5,6,7,9,10,11,1,3,2,5,10,1,3])
 print([item for item, count in collections.Counter(list6).items() if count > 1]) # if you wanna see the duplicate numbers and count dis-comment belove and commet all this line
 print([(item, count) for item, count in collections.Counter(list6).items() if count > 1])
 print()
