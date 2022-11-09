@@ -65,3 +65,5 @@ text ="hello every one"
 print(list(set(text))) 
 list8 = ['hello', 3, 3.8, 'hi', 1, 2.3, 3, 'hi']
 print(list(set(list8)))
+print()
+
